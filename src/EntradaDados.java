@@ -24,7 +24,7 @@ public class EntradaDados {
     private static double lerNumeroReal(Scanner scanner, String mensagem) {
         System.out.print(mensagem);
         double numero = scanner.nextDouble();
-        scanner.nextLine(); // Consumir a quebra de linha
+        scanner.nextLine();
         return numero;
     }
 
