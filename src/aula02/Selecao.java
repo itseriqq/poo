@@ -1,3 +1,5 @@
+package aula02;
+
 public class Selecao {
     public static void main(String[] args){
         int a = 10;

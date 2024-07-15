@@ -1,3 +1,4 @@
+package aula02;
 public class ComparacaoStrings {
     public static void main(String[] args){
         String a = "Hello";

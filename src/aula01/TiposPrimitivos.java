@@ -1,3 +1,4 @@
+package aula01;
 public class TiposPrimitivos {
     public static void main(String[] args){
     //     byte b = 10; // 1 byte

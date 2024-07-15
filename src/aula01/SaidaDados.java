@@ -1,3 +1,5 @@
+package aula01;
+
 import java.util.Locale;
 
 public class SaidaDados {
