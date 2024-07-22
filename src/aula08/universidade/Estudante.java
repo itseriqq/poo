@@ -1,12 +1,14 @@
 package aula08.universidade;
 
+import java.util.ArrayList;
+
 /** 
  *  Modelo de Estudante de graduação da UFABC.
 */
 public class Estudante {
     private String nome;
     private String ra;
-    private double[] notas;
+    private ArrayList<Double> notas;
 
     /**
      * Construtor de um novo Estudante.
@@ -16,7 +18,7 @@ public class Estudante {
      * @param notas As notas obtidas de [0, 10] em cada disciplina
      */
 
-    public Estudante(String nome, String ra, double[] notas) {
+    public Estudante(String nome, String ra, ArrayList<Double> notas) {
         validaRa(ra);
         this.nome = nome;
         this.ra = ra;
@@ -80,7 +82,7 @@ public class Estudante {
      * @return As notas do estudante
      */
 
-    public double[] getNotas() {
+    public ArrayList<Double> getNotas() {
         return notas;
     }
 
@@ -89,7 +91,7 @@ public class Estudante {
      * 
      * @param notas As novas notas do estudante
      */
-    public void setNotas(double[] notas) {
+    public void setNotas(ArrayList<Double> notas) {
         this.notas = notas;
     }
     /**
@@ -110,10 +112,10 @@ public class Estudante {
      * @return A media das notas atualizada
      */
     public double getMedia(){
-        if(notas.length == 0){
+        if(notas.isEmpty()){
             return 0.0;
         }
 
-        return somaNotas() / notas.length;   
+        return somaNotas() / notas.size();   
     }
 }
