@@ -19,9 +19,9 @@ public class App {
     // }
     public static void main(String[] args) {
         // Player player = new Player();
-        // Playlist playlist = new Playlist("Top 20 Hits Ever");
+        Playlist playlist = new Playlist("Top 20 Hits Ever");
 
-        // playlist.addTrack(new Track("Bohemian Rhapsody", "Queen", "A Night at the Opera", 1975, 555));
+        playlist.addTrack(new Track("Bohemian Rhapsody", "Queen", "A Night at the Opera", 1975, 555));
         // playlist.addTrack(new Track("Imagine", "John Lennon", "Imagine", 1971, 217)); // Duration in seconds
         // playlist.addTrack(new Track("What a Wonderful World", "Louis Armstrong", "Satchmo Sings Darin", 1968, 128));
         // playlist.addTrack(new Track("Hallelujah", "Leonard Cohen", "Various Positions", 1984, 240));
@@ -43,6 +43,8 @@ public class App {
         // playlist.addTrack(new Track("The Sound of Silence", "Disturbed", "Immortalized", 2015, 248));
 
         // player.addPlaylist(playlist);
+
+        System.out.println(playlist);
 
         // System.out.println("Fila de reprodução: ");
         // System.out.println(player.getQueuePlaylist());
