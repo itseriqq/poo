@@ -23,7 +23,7 @@ public class Data {
             throw new IllegalArgumentException("Dia inválido para mes que nao tem 31 dias");
         }
 
-        // TODO: Validar fevereiro 
+        // fazer: Validar fevereiro 
 
         this.dia = dia;
         this.mes = mes;

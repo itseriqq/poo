@@ -1,16 +1,16 @@
 package aula09.mediaplayer;
 
-import java.util.ArrayList;
+// import java.util.ArrayList;
 
 public class Player {
-    private final ArrayList<Track> queue;
+    // private final ArrayList<Track> queue;
     private Track currentTrack;
-    private boolean isPlaying;
+    // private boolean isPlaying;
 
     public Player(){
-        queue = new ArrayList<>();
+        // queue = new ArrayList<>();
         currentTrack = null;
-        isPlaying = false;
+        // isPlaying = false;
     }
 
     public void addToQueue(Track track){
@@ -43,6 +43,6 @@ public class Player {
 
     public void shuffle(){
         // Collections.shuffle(queue);
-        //TODO: pensar no comportamento da current track
+        //fazer: pensar no comportamento da current track
     }
 }
