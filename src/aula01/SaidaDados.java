@@ -9,7 +9,7 @@ public class SaidaDados {
         int idade = 18;
         double aplic = 123.453;
 
-        System.out.printf("Olá %s!%n", nome);
+        System.out.printf("Olá %s!\n", nome);
         System.out.printf("Olá %s %s!%n", nome, sobrenome);
         System.out.printf("Olá %s %s. Você tem %d anos.%n", nome,
             sobrenome, idade);

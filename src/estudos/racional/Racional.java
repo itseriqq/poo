@@ -1,8 +1,8 @@
 package estudos.racional;
 
 public class Racional {
-    int numerador;
-    int denominador;
+    private int numerador;
+    private int denominador;
 
     public Racional(int numerador, int denominador){
         this.numerador = numerador;

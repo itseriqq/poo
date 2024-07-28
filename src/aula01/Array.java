@@ -6,7 +6,7 @@ public class Array {
 
         double[] reais = {1.0, 2.0, 3.0, 4.0};
 
-        numeros[2] = 20;
+        // numeros[2] = 20;
 
         for(int i = 0; i < numeros.length; i++){
             System.out.println(numeros[i]);
